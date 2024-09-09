@@ -1,34 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="calculatora">
-        <input type="text" id="display" disabled>
-        <div class="botoes">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>+</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>*</button>
-            <button>0</button>
-            <button>.</button>
-            <button>/</button>
-            <button>=</button>
-            <button class="clear">C</button>
-            </div>
-        </div>
+    <div class="fundo">
+        <h1>Moacir D.S Junior</h1>
+        <div class="calculadora">
+            <h1>Calculadora</h1>
+            <p id="resultado"></p>
+            <table>
+                <tr>
+                    <td><button>C</button></td>
+                    <td><button><</button></td>
+                    <td><button>/</button></td>
+                    <td><button>*</button></td>
+                </tr>
+                <tr>
+                    <td><button>7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button>-</button></td>
+                </tr>
+                <tr>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    <td><button>+</button></td>
+                </tr>
+                <tr>
+                    <td><button>1</button></td>
+                    <td><button>2</button></td>
+                    <td><button>3</button></td>
+                    <td rowspan="2"><button>=</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button>0</button></td>
+                    <td><button>.</button></td>
+                </tr>
 
-    <script src="script.js"></script>
+            </table>
+        </div>
+    </div>
+    
 </body>
 </html>
