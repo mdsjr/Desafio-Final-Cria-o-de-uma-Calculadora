@@ -1,19 +1,38 @@
-# Desafio Final: Criação de uma Calculadora
+# Calculadora JavaScript
 
-Como parte do desafio final deste curso, você aplicará os conhecimentos adquiridos para criar um projeto prático:   
-uma calculadora com as quatro operações matemáticas básicas (adição, subtração, multiplicação e divisão).   
-Este projeto deve ser desenvolvido utilizando a linguagem de programação de sua escolha,   
-demonstrando sua capacidade de aplicar lógica de programação e usar o Git para gerenciamento de versões.  
+## Descrição
+Uma simples calculadora desenvolvida em JavaScript, HTML e CSS. Permite realizar operações básicas de soma, subtração, multiplicação e divisão.
 
-# Orientações para o Desafio:
+## Como usar
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/mdsjr/Desafio-Final-Cria-o-de-uma-Calculadora.git
 
-Escolha a Linguagem: Utilize a linguagem de programação com a qual você se sente mais confortável.  
-Implemente as Operações:   
-Certifique-se de que a calculadora pode realizar adição, subtração, multiplicação e divisão.
-Use o Git: Gerencie o desenvolvimento do seu projeto com os comandos Git aprendidos,   
-fazendo commits regulares para acompanhar o progresso.  
-Publique no GitHub: Ao concluir o projeto, publique-o em um repositório no GitHub,   
-demonstrando suas habilidades de desenvolvimento e uso do Git. 
+Abra o projeto:  
+Abra o arquivo index.html em seu navegador. 
 
-Este desafio não apenas consolida sua aprendizagem, mas também resulta em um projeto tangível que você pode incluir em seu portfólio,   
-mostrando suas habilidades práticas a futuros empregadores.
+Funcionalidades:  
+Soma  
+Subtração  
+Multiplicação  
+Divisão  
+Limpar tela  
+Apagar último dígito  
+
+Tecnologias utilizadas:  
+### HTML: Estrutura da página.
+### CSS: Estilização da calculadora.
+### JavaScript: Lógica da calculadora.
+  
+Contribuições são bem-vindas! Para contribuir, siga estes passos:  
+
+Fork este repositório.  
+Crie uma nova branch para sua feature.  
+Faça suas alterações e commit.  
+Envie um pull request.  
+
+Licença:  
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.  
+
+
+https://desafio-calculadora-omega.vercel.app/
